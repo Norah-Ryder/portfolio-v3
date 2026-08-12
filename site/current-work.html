@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Current Work: The Contingency Study — Nora Murphy</title>
+<meta name="description" content="The next study in the program: a contingency study testing whether model drift requires a live, responsive partner or runs regardless.">
+<link rel="preconnect" href="">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html">Nora Murphy <span>· research program</span></a>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span class="here">Current Work</span></nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap"><div class="doc-head"><p class="eyebrow">Current work · designed, not yet run <span class="tag tag--research">research</span></p><h1>Current Work: The Contingency Study</h1><p class="subtitle">The next study in the program — what it isolates, what it cannot separate, and what it needs.</p></div></div><article class="doc-body"><div class="wrap"><p class="note"><em>Designed, not yet run. This page describes the next study in the program — what it isolates, what it cannot separate, and what it needs. It exists so the reader can see where the work goes from here, and so that anyone positioned to help can see exactly what helping looks like.</em></p>
+<h2>Why this work exists</h2>
+<p>I watched deployed models do things no one had tested them for: prescribe how I should feed my partner, build confident frameworks out of my own returned vocabulary, promote me into someone I am not. These systems shipped before anyone tested them for the use the public actually puts them to — long, personal, accumulating conversations. Contextual Drift documented that gap the only way a single researcher could: real conversations, real stakes, and an evidence layer built so that trusting me is never required. Everything in the walkthroughs can be argued with; the exhibits can only be checked.</p>
+<p>That corpus is the naturalistic anchor. This study is the controlled layer built on top of it, and it isolates one mechanism.</p>
+<h2>The question</h2>
+<p>The operations the paper documents look interactional. Empath preemption, menu-offering, frame-installation — these are moves that appear to depend on the model reading and steering a live partner. If that appearance is correct, then the field has a measurement problem: nearly every safety evaluation runs on scripted users, and a scripted user is precisely the thing these operations may not engage with.</p>
+<p>So the question is: <strong>does the drift require a live partner?</strong> Does frame inheritance need contingency — a user whose next turn actually depends on the model’s last one — or does it run regardless?</p>
+<h2>The design</h2>
+<p>One persona. Two arms. The same models, matched accounts, the same window.</p>
+<p>The persona is a construction — a woman in college with a young child and a specific set of life problems, built adjacent to my own history but not as me, and researched into the present: how people in that demographic actually talk now, what their texture is, how they respond to politics and kids and exhaustion. The persona is held constant across both arms, which is the point: with the person fixed, the only variable left is whether she is <em>responsive</em>.</p>
+<p><strong>Arm A — contingent.</strong> The persona run live. Her turns genuinely respond to what the model said.</p>
+<p><strong>Arm B — non-contingent.</strong> The same persona, but her turns follow a goal-driven sequence authored in advance and outside of me — a framework of topics and events she moves through regardless of what the model says. Not a fake conversation that pretends to respond; a real trajectory that simply doesn’t. The sequence is generated under published rule-instructions by a source external to the author (a research partner, or a model excluded from the test set), so the drift-eliciting moves cannot be steered by the hand that will analyze the results.</p>
+<p><strong>The outcome measures.</strong> The detector from the paper’s method page, run blind with account markers stripped — and one measure this design makes newly countable: <strong>frame persistence under zero reinforcement.</strong> In the non-contingent arm, every interpretive offer, every menu, every personalization move the model makes gets no uptake, ever. Count what happens next. Does the behavior extinguish, hold steady, or escalate? The paper documents this anecdotally — ChatGPT re-offering an interpretation after a flat redirect — and this arm turns the anecdote into a curve.</p>
+<h2>What either result means</h2>
+<p>If drift collapses in the non-contingent arm, the phenomenon lives in the loop, not the content — which means every scripted evaluation in the field is measuring the wrong stimulus, and the safety numbers built on scripted users are measuring a version of these models that real users do not meet.</p>
+<p>If drift runs at full strength without uptake, the operations are supply-side — the model produces them regardless of the partner — which is a different and in some ways darker finding, and it validates scripted evaluation as a legitimate instrument.</p>
+<p>A well-posed question is one you cannot lose. This one comes close.</p>
+<h2>What this design cannot separate, named now</h2>
+<p>A user who never builds on anything the model says is a socially anomalous partner. Models may react to being ignored — flattened engagement, escalating bids for uptake, check-ins. So any difference between arms bundles two things: the absence of contingency, and the model’s reaction to non-uptake. “Drift requires contingency” and “drift extinguishes when ignored” are different findings, and this design cannot fully separate them. The claim will be written accordingly, before the data exists. Naming the bundle in advance is the house rule.</p>
+<p>A second variant tightens the content match: run the contingent arm first, then replay its user turns verbatim into fresh accounts — same persona, same words, same order, but the model’s replies in between are now different and the turns no longer answer them. The replay is cleaner on content-matching; the generated framework is cleaner on authorship. Even one replay pair alongside the main design checks whether the two methods agree, and each covers the other’s weakness.</p>
+<h2>Protocol commitments (pre-registered before turn one)</h2>
+<p>The direct-question rule is decided in advance: when the model asks the persona something point-blank, the non-contingent arm proceeds to the next planned topic, every time, so the anomaly is constant across runs and models. The generation rules are published as an artifact, and any hand-edits to generated turns are logged under pre-written rules. Surface texture is matched — length, register, typo rate, message rhythm — so models respond to contingency, not to formatting. Each arm runs three to five times per model on fresh matched accounts with pinned versions and identical memory settings, inside a window tight enough that a mid-study model update cannot become the independent variable. A second coder codes a blinded transcript sample. And stopping rules exist before the first message is sent: the paper’s own findings about what months of accumulated context do to the person inside it are part of this study’s safety design, and the four-part test runs on the study while the study runs.</p>
+<h2>The persona as its own contribution</h2>
+<p>Synthetic users in published evaluations are typically thin — a name, a scenario, a scripted complaint. The persona here gets what those never had: demographic research with documented sources, a persona bible with fixed biography, values, speech habits, and a pre-committed life-events calendar that constrains even the live arm’s content. No detail is traceable to a real identifiable person; the construction is composite by rule. Built properly, the persona kit is a citable, reusable artifact — every lab running conversational evaluations needs one and none of them has published one.</p>
+<p>Building the persona adjacent to me rather than as me is also armor. It takes my family out of future logs, and it puts distance between the accumulating context and the person absorbing it. The paper documents why that distance matters.</p>
+<h2>Scope</h2>
+<p>This is a pilot: small n, designed to estimate effect sizes, validate the instrument against a second coder, and refine the protocol. Every limitation above is a design parameter of the pilot, not a flaw discovered later. It runs on the best model access available at current resources, which is a limitation to disclose, not a disqualification.</p>
+<h2>What this study needs</h2>
+<p>This is the part where funding and collaboration stop being abstract. Four things, in order:</p>
+<ol><li>A second coder, secured before data collection — the paper’s single-coder limit does not get inherited by design.</li><li>Matched model access across versions and tiers, so the comparison is not confounded by product surface.</li><li>API and account costs for the runs.</li><li>An interpretability collaborator. The paper’s method page describes behavioral cataloguing as one half of a problem whose other half it names so the halves can be joined. A contingency effect — drift that appears only with a live partner — is exactly the kind of finding internal-state analysis could explain.</li></ol>
+<p>Contact information is on the <a href="how-i-work.html">How I Work</a> page.</p>
+<h2>Status</h2>
+<p>Design complete. Pre-registration in preparation.</p></div></article><div class="wrap"><a class="back-to-map" href="index.html">&larr; Back to the program map</a></div>
+</main>
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>&copy; 2026 Nora Murphy &middot; Independent AI research</div>
+    <nav aria-label="All sections"><a href="index.html">Home</a> <a href="contextual-drift-in-llms/index.html">Contextual Drift in LLMs</a> <a href="how-i-work.html">How I Work</a> <a href="current-work.html">Current Work</a> <a href="contextual-drift-in-llms/source-logs.html">Source Logs</a></nav>
+    <p class="footer-note">An earlier paper, <em>The Canyon</em>, is retired and not included here. Earlier essays and design studies are archived and available on request.</p>
+    <p class="build-stamp">Build 5bd9bb5+ · 2026-08-12 04:28 UTC</p>
+  </div>
+</footer>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

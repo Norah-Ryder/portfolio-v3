@@ -1,0 +1,6 @@
+# Old single-page portfolio paths -> new program pages
+/essay        /contextual-drift-in-llms/        301
+/case-study   /contextual-drift-in-llms/        301
+/canyon       /contextual-drift-in-llms/        301
+# Paper renamed: In-Thread Semantic Drift -> Contextual Drift in LLMs
+/in-thread-semantic-drift/*  /contextual-drift-in-llms/:splat  301
