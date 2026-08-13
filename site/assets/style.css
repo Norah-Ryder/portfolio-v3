@@ -506,6 +506,16 @@ footer.site-footer {
 .cite-transcript .turn--nora .who { color: var(--accent); }
 .cite-transcript .say { font-family: var(--mono); font-size: 13.5px; line-height: 1.72; color: var(--text); }
 .cite-transcript .masked { color: var(--text-muted); font-style: italic; }
+/* Falsifiability tier tag (§5.2): a small bracketed, small-caps label prefacing a
+   disconfirming-condition passage — checked in corpus / cross-log contrast /
+   counterfactual / prediction. Muted, non-competing with the prose. */
+.fals-tag {
+  font: 600 10px var(--sans); letter-spacing: .07em; text-transform: uppercase;
+  color: var(--accent); opacity: .9; white-space: nowrap; margin-right: .3em;
+}
+.fals-tag::before { content: "["; }
+.fals-tag::after  { content: "]"; }
+
 mark.cite-span {
   background: var(--mark-bg);
   box-shadow: inset 0 -2px 0 0 var(--accent);   /* the highlighter underline */

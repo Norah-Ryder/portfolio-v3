@@ -4,8 +4,8 @@
 
   /* ---------- Reading paths over the node map ---------- */
   var hints = {
-    new: "New to the ideas → The Literal Machine (the mechanism), then the two faces it bends into: The Human Measuring Stick and the Contextual Drift in LLMs overview.",
-    research: "Researcher / skeptic → the Method & falsifiability, then the Grok 4.1 walkthrough, then the Synthesis inside Contextual Drift in LLMs.",
+    new: "New to the ideas → The Literal Machine (the mechanism), then the two faces it bends into: The Human Measuring Stick and the Frame Inheritance and Bundling overview.",
+    research: "Researcher / skeptic → the Method & falsifiability, then the Grok 4.1 walkthrough, then the Synthesis inside Frame Inheritance and Bundling.",
     design: "Practitioner / designer → The Onboarding Problem (method seed + benign fix), then From Research to First Message (the buildable workflow)."
   };
 
